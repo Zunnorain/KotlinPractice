@@ -38,9 +38,6 @@ fun countScoresHigherThan(threshold: Int, results: List<ExamResult>): Int {
         if (results[count].score >= threshold) {
             count++
         }
-//        when(threshold){
-//            threshold -> count++
-//        }
     }
     return count
 }
