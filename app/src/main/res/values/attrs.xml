@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomImageView">
+        <attr name="randomText" format="string" />
+        <attr name="imgRef" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="CustomButtonView">
+        <attr name="btn_text" format="string"/>
+        <attr name="enabled" format="boolean"/>
+        <attr name="backgroundColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomCompoundButtonView">
+        <attr name="buzz_color" format="color"/>
+        <attr name="stroke_buzzColor" format="color"/>
+    </declare-styleable>
+</resources>
